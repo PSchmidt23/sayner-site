@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sayner — The lake house, remembered.</title>
+  <meta name="description" content="Sayner is the private family app for MuskyLodge — photos, stories, and visits at the lake, kept for good.">
+  <style>
+    :root {
+      --navy: #172037;
+      --navy-deep: #171f38;
+      --cream: #f2ede2;
+      --teal: #3d8a8f;
+      --muted: #8a93a8;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, #2b3350 0%, var(--navy-deep) 100%);
+      color: var(--cream);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 48px 24px;
+    }
+    .mark {
+      width: 108px;
+      height: 108px;
+      border-radius: 26px;
+      background: linear-gradient(180deg, #2c3a5e 0%, #172038 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 64px;
+      font-weight: 900;
+      color: white;
+      box-shadow: 0 18px 44px rgba(0, 0, 0, 0.45);
+      margin-bottom: 28px;
+      font-family: "Arial Rounded MT Bold", -apple-system, sans-serif;
+    }
+    h1 { font-size: 44px; font-weight: 800; letter-spacing: -0.5px; }
+    .tagline { font-size: 19px; color: var(--muted); margin-top: 10px; }
+    .est { margin-top: 6px; font-size: 13px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--teal); }
+    .card {
+      margin-top: 40px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      border-radius: 18px;
+      padding: 26px 30px;
+      max-width: 430px;
+      line-height: 1.55;
+      font-size: 15.5px;
+      color: #c8cdd9;
+    }
+    .card strong { color: var(--cream); }
+    .badge {
+      display: inline-block;
+      margin-top: 22px;
+      padding: 13px 26px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.10);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      color: var(--cream);
+      font-weight: 600;
+      font-size: 15px;
+      text-decoration: none;
+    }
+    footer { margin-top: 52px; font-size: 13px; color: var(--muted); }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="mark">S</div>
+  <h1>Sayner</h1>
+  <p class="tagline">The lake house, remembered.</p>
+  <p class="est">MuskyLodge &middot; Est. 2022 &middot; Northwoods, Wisconsin</p>
+
+  <div class="card">
+    <p><strong>Sayner is a private app for our family.</strong>
+    Photos, stories, and every visit to the lake — kept in one place,
+    for the people who were there and the ones who&rsquo;ll come later.</p>
+    <p style="margin-top:14px">Family? You know where the house code hangs.
+    Install the app, sign in with Apple, and enter it.</p>
+    <a class="badge" id="appstore" href="#">Coming to the App&nbsp;Store</a>
+  </div>
+
+  <footer>
+    <a href="/privacy/">Privacy Policy</a>
+  </footer>
+</body>
+</html>
